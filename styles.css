@@ -1,0 +1,103 @@
+/*Default spaces between the header border is default browser padding and image to reset it:*/
+*{
+    margin:0;/*Remove all the default spacing*/
+    padding:0;/*Removes extra spacing*/
+    box-sizing:border-box;/*making sizing easier to control*/
+}
+body{
+    /*To style the background-image*/
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/building.jpg");
+    background-size:cover;/*Make it stretch to cover the page*/
+    background-position: center;/*Keep it centered*/
+    background-repeat:no-repeat;/*Stop it from repeating*/
+    background-attachment:fixed;/*Background stays in one place like it is fixed on the screen*/
+    /*End of styling the background image*/
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+header nav{
+    background-color:white;
+    display:flex;
+    margin:0;
+    justify-content: space-between;
+    text-align:center;
+    padding-top:10px;
+}
+
+header .nav-logo img{
+    width:100px;
+    margin-left:70px;
+}
+header .nav-link{
+   padding-right:40px;
+}
+.nav-link .website{
+    margin-right:40px;
+    color:black;
+    text-decoration:none;
+}
+header .nav-btn{
+    border:2px solid #FF8C00;
+    border-radius:10px;
+    padding:5px;
+    background-color:#FF8C00;
+    width:80px;
+    text-decoration:none;
+    color:white;
+}
+header .nav-btn img{
+    display:inline-block;
+    transform:rotate(-90deg);
+    vertical-align: middle;/*To align text or inline elements inside a line(Top, Bottom, Middle)*/
+}
+/*End of the header style........................*/
+
+/*The main section styling........................................................*/
+
+/*THe first section styling ...............................................................*/
+.first{
+    width:620px;
+    color:white;
+    margin:40px auto;
+    text-align:center;
+ }
+.info .orange{
+   color:#FF6600;
+}
+.info p{
+    color:lightgrey;
+    margin-top:20px;
+}
+/*The button styling....................*/
+.btn{
+    display:flex;
+    margin-top:20px;
+    padding:12px;
+    justify-content:center;
+    align-items:center;
+}
+.btn .btn-1 img{
+    width:20px;
+    vertical-align: middle;
+}
+.btn  a{
+    color:white;
+    text-decoration: none;
+}
+.btn .btn-1{
+    width:200px;
+    border-radius:10px;
+    background-color:#FF6600;
+    padding:15px;
+    margin-right:20px
+}
+.btn .btn-2{
+    width:100px;
+    border-radius:10px;
+    background-color:#00391d;
+    padding:15px;
+}
